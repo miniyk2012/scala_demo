@@ -2,32 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d57dc4-91b0-4b83-af0e-4011cb456117" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections_demo.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Counter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Counter2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PrivateCounter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Counter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/CounterMain$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/CounterMain$delayedInit$body.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/CounterMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Hello$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Hello$delayedInit$body.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Hello.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/scala_demo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PrivateCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PrivateCounterMain$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PrivateCounterMain$delayedInit$body.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PrivateCounterMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Top$Nested$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Top$Nested.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Top.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TopMain$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TopMain$delayedInit$body.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TopMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Counter1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Person.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Person1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Position.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Temp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure.sc" beforeDir="false" afterPath="$PROJECT_DIR$/structure.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Counter2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Counter2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Top.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Top.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Counter2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterMain$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterMain$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CounterMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hello$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hello$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/scala_demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrivateCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrivateCounterMain$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrivateCounterMain$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrivateCounterMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top$Nested$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top$Nested.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TopMain$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TopMain$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TopMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,21 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrivateCounterMain">
+  <component name="RunManager" selected="Application.TempMain">
+    <configuration name="Counter1Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Counter1Main" />
+      <module name="scala_demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Counter2Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Counter2Main" />
+      <module name="scala_demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CounterMain" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="CounterMain" />
       <module name="scala_demo" />
@@ -92,41 +110,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="TempMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TempMain" />
       <module name="scala_demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main1" />
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="scala_demo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrivateCounterMain" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="PrivateCounterMain" />
-      <module name="scala_demo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopMain" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TopMain" />
-      <module name="scala_demo" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrivateCounterMain" />
+        <item itemvalue="Application.TempMain" />
+        <item itemvalue="Application.Counter1Main" />
+        <item itemvalue="Application.Counter2Main" />
         <item itemvalue="Application.CounterMain" />
-        <item itemvalue="Application.TopMain" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Scala REPL.Scala REPL" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +169,7 @@
       <updated>1594897315028</updated>
       <workItem from="1594897317238" duration="1530000" />
       <workItem from="1595242788070" duration="7599000" />
-      <workItem from="1595306126675" duration="4011000" />
+      <workItem from="1595306126675" duration="6964000" />
     </task>
     <servers />
   </component>
@@ -178,10 +185,11 @@
       <screen x="0" y="23" width="1392" height="877" />
     </state>
     <state x="434" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595243718960" />
-    <state x="160" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595307844864">
+    <state x="160" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595346106331">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state x="160" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595307844864" />
+    <state x="160" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1387.877@0.23.1387.877" timestamp="1595346106331" />
     <state x="161" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595244311264" />
     <state x="509" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1595247148797">
       <screen x="0" y="23" width="1392" height="877" />
@@ -191,34 +199,50 @@
       <screen x="0" y="23" width="1392" height="877" />
     </state>
     <state x="310" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245812211" />
-    <state width="1345" height="271" key="GridCell.Tab.0.bottom" timestamp="1595311467324">
+    <state width="1345" height="271" key="GridCell.Tab.0.bottom" timestamp="1595346438533">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
-    <state width="1345" height="271" key="GridCell.Tab.0.bottom/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595311467324" />
-    <state width="1345" height="230" key="GridCell.Tab.0.bottom/0.23.1387.877@0.23.1387.877" timestamp="1595285414463" />
+    <state width="1345" height="271" key="GridCell.Tab.0.bottom/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595340191517" />
+    <state width="1345" height="271" key="GridCell.Tab.0.bottom/0.23.1387.877@0.23.1387.877" timestamp="1595346438533" />
     <state width="1345" height="230" key="GridCell.Tab.0.bottom/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324767" />
     <state width="1345" height="230" key="GridCell.Tab.0.bottom/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951229" />
-    <state width="1345" height="271" key="GridCell.Tab.0.center" timestamp="1595311467322">
+    <state width="1345" height="271" key="GridCell.Tab.0.center" timestamp="1595346438532">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
-    <state width="1345" height="271" key="GridCell.Tab.0.center/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595311467322" />
-    <state width="1345" height="230" key="GridCell.Tab.0.center/0.23.1387.877@0.23.1387.877" timestamp="1595285414462" />
+    <state width="1345" height="271" key="GridCell.Tab.0.center/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595340191516" />
+    <state width="1345" height="271" key="GridCell.Tab.0.center/0.23.1387.877@0.23.1387.877" timestamp="1595346438532" />
     <state width="1345" height="230" key="GridCell.Tab.0.center/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324766" />
     <state width="1345" height="230" key="GridCell.Tab.0.center/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951228" />
-    <state width="1345" height="271" key="GridCell.Tab.0.left" timestamp="1595311467322">
+    <state width="1345" height="271" key="GridCell.Tab.0.left" timestamp="1595346438531">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
-    <state width="1345" height="271" key="GridCell.Tab.0.left/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595311467322" />
-    <state width="1345" height="230" key="GridCell.Tab.0.left/0.23.1387.877@0.23.1387.877" timestamp="1595285414461" />
+    <state width="1345" height="271" key="GridCell.Tab.0.left/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595340191515" />
+    <state width="1345" height="271" key="GridCell.Tab.0.left/0.23.1387.877@0.23.1387.877" timestamp="1595346438531" />
     <state width="1345" height="230" key="GridCell.Tab.0.left/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324765" />
     <state width="1345" height="230" key="GridCell.Tab.0.left/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951227" />
-    <state width="1345" height="271" key="GridCell.Tab.0.right" timestamp="1595311467323">
+    <state width="1345" height="271" key="GridCell.Tab.0.right" timestamp="1595346438533">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
-    <state width="1345" height="271" key="GridCell.Tab.0.right/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595311467323" />
-    <state width="1345" height="230" key="GridCell.Tab.0.right/0.23.1387.877@0.23.1387.877" timestamp="1595285414463" />
+    <state width="1345" height="271" key="GridCell.Tab.0.right/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595340191516" />
+    <state width="1345" height="271" key="GridCell.Tab.0.right/0.23.1387.877@0.23.1387.877" timestamp="1595346438533" />
     <state width="1345" height="230" key="GridCell.Tab.0.right/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324767" />
     <state width="1345" height="230" key="GridCell.Tab.0.right/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951228" />
+    <state width="1345" height="285" key="GridCell.Tab.1.bottom" timestamp="1595346094399">
+      <screen x="0" y="23" width="1387" height="877" />
+    </state>
+    <state width="1345" height="285" key="GridCell.Tab.1.bottom/0.23.1387.877@0.23.1387.877" timestamp="1595346094399" />
+    <state width="1345" height="285" key="GridCell.Tab.1.center" timestamp="1595346094397">
+      <screen x="0" y="23" width="1387" height="877" />
+    </state>
+    <state width="1345" height="285" key="GridCell.Tab.1.center/0.23.1387.877@0.23.1387.877" timestamp="1595346094397" />
+    <state width="1345" height="285" key="GridCell.Tab.1.left" timestamp="1595346094396">
+      <screen x="0" y="23" width="1387" height="877" />
+    </state>
+    <state width="1345" height="285" key="GridCell.Tab.1.left/0.23.1387.877@0.23.1387.877" timestamp="1595346094396" />
+    <state width="1345" height="285" key="GridCell.Tab.1.right" timestamp="1595346094398">
+      <screen x="0" y="23" width="1387" height="877" />
+    </state>
+    <state width="1345" height="285" key="GridCell.Tab.1.right/0.23.1387.877@0.23.1387.877" timestamp="1595346094398" />
     <state x="183" y="42" key="SettingsEditor" timestamp="1595245858721">
       <screen x="0" y="23" width="1392" height="877" />
     </state>
