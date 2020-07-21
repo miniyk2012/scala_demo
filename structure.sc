@@ -19,7 +19,7 @@ for (i <- array) {
 val intValueArr = new Array[Int](3)
 val myStrArr = Array("BigData", "Hadoop", "Spark")
 
-intValueArr(1) = 100
+intValueArr(1) = 101
 intValueArr
 
 val myMatrix = Array.ofDim[Int](3, 4)
@@ -30,3 +30,8 @@ val tuple: (String, Int, Double) = ("BigData", 2015, 45.0)
 tuple._3
 
 val (t1, t2, t3) = tuple
+
+for (i <- 0 to 2) print(intValueArr(i))
+for (i <- intValueArr) print(i)
+
+val a: Unit = ()
