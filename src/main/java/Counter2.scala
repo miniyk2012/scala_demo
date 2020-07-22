@@ -18,6 +18,8 @@ class Counter2 {
 
 }
 
+
+
 object Counter2Main extends App {
   val c1 = new Counter2()
   println()

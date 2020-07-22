@@ -6,8 +6,17 @@ class Counter1(name: String) {
 }
 
 object Counter1Main {
+  def add = (x: Int, y: Int) => x + y  //匿名函数
   def main(args: Array[String]): Unit = {
     val c = new Counter1("啊")
     c.info()
+    println(add(4,6))
+    println(add.apply(4,6))
+//    val array = Array(1,2,3)
+    val array = new Array[String](3)
+    println(array)
+    for (i <- array) {
+      println(i)
+    }
   }
 }
