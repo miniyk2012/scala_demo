@@ -1,3 +1,5 @@
+package basic
+
 class Counter2 {
   private var value=0
   private var name = ""

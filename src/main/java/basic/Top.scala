@@ -1,10 +1,12 @@
+package basic
+
 class Top(name: String, subname: String) {
 
   case class Nested(name: String)
 
   def show: Unit = {
     val c = new Nested(subname)
-    printf("Top %s includes a Nested %s\n", name, c.name)
+    printf("basic.Top %s includes a Nested %s\n", name, c.name)
   }
 }
 

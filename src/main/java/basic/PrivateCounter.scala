@@ -1,3 +1,5 @@
+package basic
+
 class PrivateCounter {
   private var privateValue = 0
   private var name = ""

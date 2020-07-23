@@ -1,3 +1,5 @@
+package basic
+
 class TestApplyClass {
   def apply(param: String): Unit = {
     printf("Apply method called: %s\n", param)

@@ -1,3 +1,5 @@
+package basic
+
 class Counter {
   var value: Int = 0
 

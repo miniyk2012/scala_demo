@@ -1,3 +1,5 @@
+package basic
+
 class Car(name: String) {
   def info(): Unit = {
     println("car name is " + name)

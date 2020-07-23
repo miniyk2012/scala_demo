@@ -1,3 +1,5 @@
+package basic
+
 class Position(var x: Double = 0, var y: Double = 0) {
   def move(deltaX: Double = 0, deltaY: Double = 0) {
     x += deltaX

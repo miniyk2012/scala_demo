@@ -1,3 +1,5 @@
+package basic
+
 class UnapplyCar(val brand: String, val price: Int) {
   def info(): Unit = {
     println("car brand is " + brand + " and price is " + price)

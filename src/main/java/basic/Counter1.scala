@@ -1,3 +1,5 @@
+package basic
+
 class Counter1(name: String) {
   private var value = 0
   def increment(step: Int): Unit = { value += step}

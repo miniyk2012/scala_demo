@@ -1,5 +1,7 @@
+package basic
+
 object Person {
-  private var lastId = 0  // 因为是单例, 所有是共享的, 就和静态变量一样
+  private var lastId = 0 // 因为是单例, 所有是共享的, 就和静态变量一样
   def newPersonId() = {
     lastId += 1
     lastId

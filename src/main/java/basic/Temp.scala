@@ -1,3 +1,5 @@
+package basic
+
 class Temp {
   var x: Int = 0 //这里使用x作为字段名
   def x(i: Int): Int = x + i //这里又使用了同名的x作为方法名
