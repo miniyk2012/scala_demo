@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d57dc4-91b0-4b83-af0e-4011cb456117" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inherit/Car.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/case_clz/Car.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/case_clz/TestMatch.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clz/Bird.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clz/Box.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clz/Element.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Add.sc" beforeDir="false" afterPath="$PROJECT_DIR$/Add.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inherit/Car.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clz/Car.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://scala-decompiled/package.decompiled.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -62,13 +71,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarMain">
-    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="inherit.CarMain" />
+  <component name="RunManager" selected="Application.TestMatch">
+    <configuration name="BirdMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clz.BirdMain" />
       <module name="scala_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inherit.*" />
+          <option name="PATTERN" value="clz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,41 +85,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Counter1Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Counter1Main" />
+    <configuration name="CarMain (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="case_clz.CarMain" />
       <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="case_clz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTestApply" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MyTestApply" />
+    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clz.CarMain" />
       <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplyClassMain" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestApplyClassMain" />
+    <configuration name="ElementMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clz.ElementMain" />
       <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnapplyMain" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="UnapplyMain" />
+    <configuration name="TestMatch" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="case_clz.TestMatch" />
       <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="case_clz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMatch" />
+        <item itemvalue="Application.CarMain (1)" />
+        <item itemvalue="Application.BirdMain" />
         <item itemvalue="Application.CarMain" />
-        <item itemvalue="Application.UnapplyMain" />
-        <item itemvalue="Application.MyTestApply" />
-        <item itemvalue="Application.Counter1Main" />
-        <item itemvalue="Application.TestApplyClassMain" />
+        <item itemvalue="Application.ElementMain" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +181,8 @@
       <workItem from="1595242788070" duration="7599000" />
       <workItem from="1595306126675" duration="7368000" />
       <workItem from="1595394001060" duration="4556000" />
-      <workItem from="1595480886847" duration="4613000" />
+      <workItem from="1595480886847" duration="4735000" />
+      <workItem from="1595635328702" duration="3745000" />
     </task>
     <servers />
   </component>
@@ -170,45 +204,46 @@
     <state x="160" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595307844864" />
     <state x="160" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1387.877@0.23.1387.877" timestamp="1595346106331" />
     <state x="161" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595244311264" />
-    <state x="-1218" y="195" key="#com.intellij.ide.util.MemberChooser" timestamp="1595481977899">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1595719828030">
+      <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state x="-1218" y="195" key="#com.intellij.ide.util.MemberChooser/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595481977899" />
+    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser/0.23.1387.877@0.23.1387.877" timestamp="1595719828030" />
     <state x="509" y="166" key="#com.intellij.ide.util.MemberChooser/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595247148797" />
     <state x="310" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595245812211">
       <screen x="0" y="23" width="1392" height="877" />
     </state>
     <state x="310" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245812211" />
-    <state width="1345" height="285" key="GridCell.Tab.0.bottom" timestamp="1595550455015">
+    <state width="1345" height="224" key="GridCell.Tab.0.bottom" timestamp="1595722455482">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state width="1345" height="285" key="GridCell.Tab.0.bottom/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595512753053" />
     <state width="1345" height="271" key="GridCell.Tab.0.bottom/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595396403315" />
-    <state width="1345" height="285" key="GridCell.Tab.0.bottom/0.23.1387.877@0.23.1387.877" timestamp="1595550455015" />
+    <state width="1345" height="224" key="GridCell.Tab.0.bottom/0.23.1387.877@0.23.1387.877" timestamp="1595722455482" />
     <state width="1345" height="230" key="GridCell.Tab.0.bottom/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324767" />
     <state width="1345" height="230" key="GridCell.Tab.0.bottom/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951229" />
-    <state width="1345" height="285" key="GridCell.Tab.0.center" timestamp="1595550455014">
+    <state width="1345" height="224" key="GridCell.Tab.0.center" timestamp="1595722455481">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state width="1345" height="285" key="GridCell.Tab.0.center/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595512753051" />
     <state width="1345" height="271" key="GridCell.Tab.0.center/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595396403314" />
-    <state width="1345" height="285" key="GridCell.Tab.0.center/0.23.1387.877@0.23.1387.877" timestamp="1595550455014" />
+    <state width="1345" height="224" key="GridCell.Tab.0.center/0.23.1387.877@0.23.1387.877" timestamp="1595722455481" />
     <state width="1345" height="230" key="GridCell.Tab.0.center/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324766" />
     <state width="1345" height="230" key="GridCell.Tab.0.center/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951228" />
-    <state width="1345" height="285" key="GridCell.Tab.0.left" timestamp="1595550455013">
+    <state width="1345" height="224" key="GridCell.Tab.0.left" timestamp="1595722455481">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state width="1345" height="285" key="GridCell.Tab.0.left/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595512753051" />
     <state width="1345" height="271" key="GridCell.Tab.0.left/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595396403313" />
-    <state width="1345" height="285" key="GridCell.Tab.0.left/0.23.1387.877@0.23.1387.877" timestamp="1595550455013" />
+    <state width="1345" height="224" key="GridCell.Tab.0.left/0.23.1387.877@0.23.1387.877" timestamp="1595722455481" />
     <state width="1345" height="230" key="GridCell.Tab.0.left/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324765" />
     <state width="1345" height="230" key="GridCell.Tab.0.left/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951227" />
-    <state width="1345" height="285" key="GridCell.Tab.0.right" timestamp="1595550455014">
+    <state width="1345" height="224" key="GridCell.Tab.0.right" timestamp="1595722455481">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state width="1345" height="285" key="GridCell.Tab.0.right/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595512753052" />
     <state width="1345" height="271" key="GridCell.Tab.0.right/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595396403314" />
-    <state width="1345" height="285" key="GridCell.Tab.0.right/0.23.1387.877@0.23.1387.877" timestamp="1595550455014" />
+    <state width="1345" height="224" key="GridCell.Tab.0.right/0.23.1387.877@0.23.1387.877" timestamp="1595722455481" />
     <state width="1345" height="230" key="GridCell.Tab.0.right/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324767" />
     <state width="1345" height="230" key="GridCell.Tab.0.right/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951228" />
     <state width="1345" height="285" key="GridCell.Tab.1.bottom" timestamp="1595376436844">
@@ -231,15 +266,17 @@
       <screen x="0" y="23" width="1392" height="877" />
     </state>
     <state x="183" y="42" key="SettingsEditor/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245858721" />
-    <state x="-1405" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1595480906952">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="372" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1595635628984">
+      <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state x="-1405" y="350" key="com.intellij.ide.util.TipDialog/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595480906952" />
     <state x="372" y="294" key="com.intellij.ide.util.TipDialog/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595394001861" />
+    <state x="372" y="294" key="com.intellij.ide.util.TipDialog/0.23.1387.877@0.23.1387.877" timestamp="1595635628984" />
     <state x="373" y="294" key="com.intellij.ide.util.TipDialog/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595242802462" />
-    <state x="358" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1595308859878">
+    <state x="358" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1595635685980">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state x="358" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595308859878" />
+    <state x="358" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1387.877@0.23.1387.877" timestamp="1595635685980" />
   </component>
 </project>

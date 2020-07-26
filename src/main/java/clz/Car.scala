@@ -1,4 +1,4 @@
-package inherit
+package clz
 
 abstract class Car(val name: String) {
   val carBrand: String
@@ -46,7 +46,8 @@ object CarMain extends App {
   val bydCar = new BYDCar("yangkai", 14)
   bydCar.info()
   bydCar.greeting()
-  println(bydCar.age)
+  println(bydCar.age)  // 这个属性还是10, 而非14
+  println(bydCar.name)
 
   val bydCar2 = new BYDCar("yangkai2", 16)
   bydCar2.info()
