@@ -24,7 +24,11 @@ class CarElement(var value :Car) extends Element {
 object ElementMain extends App {
   val intEle: Element = new IntElement(10)
   intEle.show
+  println(intEle.value)
 
   val carEle: Element = new CarElement(new BYDCar("牛逼", 15))
   carEle.show
+  println(carEle.value)
+  carEle.asInstanceOf[CarElement].value = new BMWCar("BMW")
+  println(carEle.value)
 }

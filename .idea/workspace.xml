@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d57dc4-91b0-4b83-af0e-4011cb456117" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/case_clz/Book.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/package.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/ch02/ScoreReport.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/ch02/Series.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/basic_func.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/closure.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/container_ops.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/curry.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/high_func.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/student.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scala_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Add.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/Add.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematician.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/Mathematician.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_demo.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/collections_demo.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clz/Element.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clz/Element.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/structure.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +30,27 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Worksheet" />
         <option value="Scala Object" />
         <option value="Package Object" />
         <option value="Class" />
+        <option value="Scala Worksheet" />
       </list>
     </option>
   </component>
@@ -69,10 +92,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/func" />
+      <recent name="$PROJECT_DIR$/src/main/java/collection" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookTest">
+  <component name="RunManager" selected="Application.ScoreReport">
     <configuration name="BookTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="case_clz.BookTest" />
       <module name="scala_demo" />
@@ -99,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTestApply" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="basic.MyTestApply" />
+    <configuration name="ElementMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clz.ElementMain" />
       <module name="scala_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="clz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="X" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="basic.X" />
+    <configuration name="ScoreReport" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.ch02.ScoreReport" />
       <module name="scala_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="exercise.ch02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,20 +151,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="demo" />
+    <configuration name="Series" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.ch02.Series" />
       <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.ch02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScoreReport" />
+        <item itemvalue="Application.Series" />
+        <item itemvalue="Application.ElementMain" />
         <item itemvalue="Application.BookTest" />
         <item itemvalue="Application.CarMain" />
-        <item itemvalue="Application.X" />
-        <item itemvalue="Application.MyTestApply" />
-        <item itemvalue="Application.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +213,9 @@
       <workItem from="1596021101134" duration="1652000" />
       <workItem from="1596078090943" duration="1220000" />
       <workItem from="1597806853392" duration="84000" />
-      <workItem from="1597806959728" duration="3682000" />
+      <workItem from="1597806959728" duration="6081000" />
+      <workItem from="1597884395357" duration="3186000" />
+      <workItem from="1597904202514" duration="6420000" />
     </task>
     <servers />
   </component>
@@ -198,9 +232,10 @@
     </state>
     <state x="449" y="205" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1596021168084" />
     <state x="434" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595243718960" />
-    <state x="160" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595346106331">
-      <screen x="0" y="23" width="1387" height="877" />
+    <state x="166" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597972462193">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="166" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1597972462193" />
     <state x="160" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1595307844864" />
     <state x="160" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1387.877@0.23.1387.877" timestamp="1595346106331" />
     <state x="161" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595244311264" />
@@ -218,49 +253,53 @@
       <screen x="0" y="23" width="1392" height="877" />
     </state>
     <state x="310" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245812211" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1597814590083">
-      <screen x="0" y="23" width="1387" height="877" />
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom" timestamp="1597972816755">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1596022040636" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.23.1920.1057@0.0.1440.900" timestamp="1596021731143" />
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596066279995" />
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597972816755" />
     <state width="1345" height="285" key="GridCell.Tab.0.bottom/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595512753053" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1597814590083" />
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1597815767372" />
     <state width="1345" height="224" key="GridCell.Tab.0.bottom/0.23.1387.877@0.23.1387.877" timestamp="1595723621991" />
     <state width="1345" height="230" key="GridCell.Tab.0.bottom/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324767" />
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1597843982823" />
     <state width="1345" height="230" key="GridCell.Tab.0.bottom/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951229" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1597814590082">
-      <screen x="0" y="23" width="1387" height="877" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center" timestamp="1597972816753">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1596022040632" />
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900/-1920.23.1920.1057@0.0.1440.900" timestamp="1596021731141" />
-    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596066279992" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597972816753" />
     <state width="1345" height="285" key="GridCell.Tab.0.center/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595512753051" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1597814590082" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1597815767369" />
     <state width="1345" height="224" key="GridCell.Tab.0.center/0.23.1387.877@0.23.1387.877" timestamp="1595723621990" />
     <state width="1345" height="230" key="GridCell.Tab.0.center/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324766" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1597843982822" />
     <state width="1345" height="230" key="GridCell.Tab.0.center/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951228" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1597814590081">
-      <screen x="0" y="23" width="1387" height="877" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left" timestamp="1597972816753">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1596022040631" />
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900/-1920.23.1920.1057@0.0.1440.900" timestamp="1596021731140" />
-    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596066279991" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597972816753" />
     <state width="1345" height="285" key="GridCell.Tab.0.left/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595512753051" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1597814590081" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1597815767368" />
     <state width="1345" height="224" key="GridCell.Tab.0.left/0.23.1387.877@0.23.1387.877" timestamp="1595723621990" />
     <state width="1345" height="230" key="GridCell.Tab.0.left/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324765" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1597843982821" />
     <state width="1345" height="230" key="GridCell.Tab.0.left/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951227" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1597814590083">
-      <screen x="0" y="23" width="1387" height="877" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right" timestamp="1597972816754">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1596022040634" />
     <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900/-1920.23.1920.1057@0.0.1440.900" timestamp="1596021731142" />
-    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596066279993" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597972816754" />
     <state width="1345" height="285" key="GridCell.Tab.0.right/0.23.1387.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1595512753052" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1597814590083" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.23.1387.877/-1920.23.1920.1057@0.23.1387.877" timestamp="1597815767371" />
     <state width="1345" height="224" key="GridCell.Tab.0.right/0.23.1387.877@0.23.1387.877" timestamp="1595723621991" />
     <state width="1345" height="230" key="GridCell.Tab.0.right/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1594903324767" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1597843982823" />
     <state width="1345" height="230" key="GridCell.Tab.0.right/0.23.1392.877/-1920.23.1920.1057@0.23.1392.877" timestamp="1595245951228" />
     <state width="1345" height="285" key="GridCell.Tab.1.bottom" timestamp="1595376436844">
       <screen x="0" y="23" width="1387" height="877" />

@@ -1,0 +1,4 @@
+id      gender   Math  English Physics Science
+301610  male      72     39      74      93
+301611  male      75     85      93      26
+301612  female    85     79      91      26
