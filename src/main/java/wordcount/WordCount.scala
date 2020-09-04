@@ -36,8 +36,9 @@ object WordCount {
 
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("WordCount")
-      .setMaster("local")
+//      .setMaster("local")
 //      .setMaster("spark://zjka-cpc-backend-bigdata-qa-01:7077")
+      .setMaster("yarn")
     val sc = new SparkContext(conf)
 //    wordCount(sc)
 //    readFile(sc)

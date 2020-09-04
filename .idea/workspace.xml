@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160ceebc-4693-4d48-ac50-96cd39e8118f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wordcount/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wordcount/WordCount.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +183,7 @@
       <workItem from="1598541772760" duration="581000" />
       <workItem from="1598574553699" duration="1082000" />
       <workItem from="1598961125280" duration="12866000" />
-      <workItem from="1599100710081" duration="8553000" />
+      <workItem from="1599100710081" duration="8674000" />
     </task>
     <servers />
   </component>
