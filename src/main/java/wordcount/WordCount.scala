@@ -44,7 +44,7 @@ object WordCount {
 //    readFile(sc)
 //    readHdfsFile(sc)
     wordCount(sc)
-//    Thread.sleep(1000000)
+    Thread.sleep(1000000)
     sc.stop()
   }
 }
