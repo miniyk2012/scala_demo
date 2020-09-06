@@ -16,6 +16,8 @@ object dataframe_demo1 {
     peopleDF.createOrReplaceTempView("people")  //必须注册为临时表才能供下面的查询使用
     val selected = spark.sql("select name,age from people where age > 20") //最终生成一个DataFrame
     selected.show()
+    peopleDF.select("name").write.format("csv")
+      .save("file:///Users/admin/Documents/javaprojects/scala_demo/src/main/resources/newpeople.csv")
   }
 }
 
