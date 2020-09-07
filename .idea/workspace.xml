@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160ceebc-4693-4d48-ac50-96cd39e8118f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sparksql/dataframe_demo2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sparksql/parquet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spark_streaming/TestRDDQueueStream/TestRDDQueueStream.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spark_streaming/demo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sparksql/hive_demo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sparksql/dataframe_demo1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sparksql/dataframe_demo1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
       <list>
         <option value="Class" />
         <option value="Scala Object" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -80,13 +84,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/sparksql" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.parquet">
-    <configuration name="dataframe_demo1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparksql.dataframe_demo1" />
+  <component name="RunManager" selected="Application.TestRDDQueueStream">
+    <configuration name="TestRDDQueueStream" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark_streaming.TestRDDQueueStream.TestRDDQueueStream" />
       <module name="scala_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparksql.*" />
+          <option name="PATTERN" value="spark_streaming.TestRDDQueueStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +111,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparksql.demo1" />
+    <configuration name="demo1 (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark_streaming.demo1" />
+      <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spark_streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hive_demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparksql.hive_demo" />
       <module name="scala_demo" />
       <extension name="coverage">
         <pattern>
@@ -133,33 +150,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="readFile" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparksql.readFile" />
-      <module name="scala_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sparksql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.demo1" />
-      <item itemvalue="Application.readFile" />
-      <item itemvalue="Application.dataframe_demo1" />
       <item itemvalue="Application.dataframe_demo2" />
       <item itemvalue="Application.parquet" />
+      <item itemvalue="Application.hive_demo" />
+      <item itemvalue="Application.demo1 (1)" />
+      <item itemvalue="Application.TestRDDQueueStream" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRDDQueueStream" />
+        <item itemvalue="Application.demo1 (1)" />
+        <item itemvalue="Application.hive_demo" />
         <item itemvalue="Application.parquet" />
         <item itemvalue="Application.dataframe_demo2" />
-        <item itemvalue="Application.demo1" />
-        <item itemvalue="Application.dataframe_demo1" />
-        <item itemvalue="Application.readFile" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +196,7 @@
       <workItem from="1598574553699" duration="1082000" />
       <workItem from="1598961125280" duration="12866000" />
       <workItem from="1599100710081" duration="9213000" />
-      <workItem from="1599299011707" duration="5475000" />
+      <workItem from="1599299011707" duration="11834000" />
     </task>
     <servers />
   </component>
@@ -204,11 +208,12 @@
       <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state x="293" y="127" key="#Scala/0.23.1387.877@0.23.1387.877" timestamp="1598488783753" />
-    <state x="430" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1599370344672">
-      <screen x="0" y="23" width="1385" height="877" />
+    <state x="430" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1599446772233">
+      <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state x="430" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599303083770" />
     <state x="430" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1385.877@0.23.1385.877" timestamp="1599370344672" />
+    <state x="430" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1386.877/-1920.23.1920.1057@0.23.1386.877" timestamp="1599446772233" />
     <state x="431" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1387.877@0.23.1387.877" timestamp="1598491433366" />
     <state x="158" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599202592382">
       <screen x="0" y="23" width="1385" height="877" />
@@ -236,45 +241,49 @@
       <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state x="448" y="233" key="EnvironmentVariablesDialog/0.23.1386.877/-1920.23.1920.1057@0.23.1386.877" timestamp="1599013822604" />
-    <state width="1343" height="319" key="GridCell.Tab.0.bottom" timestamp="1599370663657">
+    <state width="1343" height="183" key="GridCell.Tab.0.bottom" timestamp="1599482760336">
       <screen x="0" y="23" width="1385" height="877" />
     </state>
-    <state width="1343" height="246" key="GridCell.Tab.0.bottom/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599303741192" />
-    <state width="1343" height="319" key="GridCell.Tab.0.bottom/0.23.1385.877@0.23.1385.877" timestamp="1599370663657" />
+    <state width="1343" height="183" key="GridCell.Tab.0.bottom/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599482760336" />
+    <state width="1343" height="319" key="GridCell.Tab.0.bottom/0.23.1385.877@0.23.1385.877" timestamp="1599370707904" />
     <state width="1343" height="305" key="GridCell.Tab.0.bottom/0.23.1386.877/-1920.23.1920.1057@0.23.1386.877" timestamp="1599013862434" />
     <state width="1343" height="305" key="GridCell.Tab.0.bottom/0.23.1386.877@0.23.1386.877" timestamp="1599007376982" />
     <state width="1345" height="285" key="GridCell.Tab.0.bottom/0.23.1387.877@0.23.1387.877" timestamp="1598491353362" />
     <state width="1343" height="324" key="GridCell.Tab.0.bottom/0.23.1388.877@0.23.1388.877" timestamp="1599035631211" />
+    <state width="1343" height="364" key="GridCell.Tab.0.bottom/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1599466495063" />
     <state width="1343" height="190" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1599036500075" />
-    <state width="1343" height="319" key="GridCell.Tab.0.center" timestamp="1599370663656">
+    <state width="1343" height="183" key="GridCell.Tab.0.center" timestamp="1599482760335">
       <screen x="0" y="23" width="1385" height="877" />
     </state>
-    <state width="1343" height="246" key="GridCell.Tab.0.center/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599303741190" />
-    <state width="1343" height="319" key="GridCell.Tab.0.center/0.23.1385.877@0.23.1385.877" timestamp="1599370663656" />
+    <state width="1343" height="183" key="GridCell.Tab.0.center/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599482760335" />
+    <state width="1343" height="319" key="GridCell.Tab.0.center/0.23.1385.877@0.23.1385.877" timestamp="1599370707903" />
     <state width="1343" height="305" key="GridCell.Tab.0.center/0.23.1386.877/-1920.23.1920.1057@0.23.1386.877" timestamp="1599013862433" />
     <state width="1343" height="305" key="GridCell.Tab.0.center/0.23.1386.877@0.23.1386.877" timestamp="1599007376982" />
     <state width="1345" height="285" key="GridCell.Tab.0.center/0.23.1387.877@0.23.1387.877" timestamp="1598491353361" />
     <state width="1343" height="324" key="GridCell.Tab.0.center/0.23.1388.877@0.23.1388.877" timestamp="1599035631210" />
+    <state width="1343" height="364" key="GridCell.Tab.0.center/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1599466495061" />
     <state width="1343" height="190" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1599036500074" />
-    <state width="1343" height="319" key="GridCell.Tab.0.left" timestamp="1599370663654">
+    <state width="1343" height="183" key="GridCell.Tab.0.left" timestamp="1599482760334">
       <screen x="0" y="23" width="1385" height="877" />
     </state>
-    <state width="1343" height="246" key="GridCell.Tab.0.left/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599303741190" />
-    <state width="1343" height="319" key="GridCell.Tab.0.left/0.23.1385.877@0.23.1385.877" timestamp="1599370663654" />
+    <state width="1343" height="183" key="GridCell.Tab.0.left/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599482760334" />
+    <state width="1343" height="319" key="GridCell.Tab.0.left/0.23.1385.877@0.23.1385.877" timestamp="1599370707902" />
     <state width="1343" height="305" key="GridCell.Tab.0.left/0.23.1386.877/-1920.23.1920.1057@0.23.1386.877" timestamp="1599013862432" />
     <state width="1343" height="305" key="GridCell.Tab.0.left/0.23.1386.877@0.23.1386.877" timestamp="1599007376981" />
     <state width="1345" height="285" key="GridCell.Tab.0.left/0.23.1387.877@0.23.1387.877" timestamp="1598491353360" />
     <state width="1343" height="324" key="GridCell.Tab.0.left/0.23.1388.877@0.23.1388.877" timestamp="1599035631209" />
+    <state width="1343" height="364" key="GridCell.Tab.0.left/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1599466495061" />
     <state width="1343" height="190" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1599036500074" />
-    <state width="1343" height="319" key="GridCell.Tab.0.right" timestamp="1599370663656">
+    <state width="1343" height="183" key="GridCell.Tab.0.right" timestamp="1599482760335">
       <screen x="0" y="23" width="1385" height="877" />
     </state>
-    <state width="1343" height="246" key="GridCell.Tab.0.right/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599303741191" />
-    <state width="1343" height="319" key="GridCell.Tab.0.right/0.23.1385.877@0.23.1385.877" timestamp="1599370663656" />
+    <state width="1343" height="183" key="GridCell.Tab.0.right/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599482760335" />
+    <state width="1343" height="319" key="GridCell.Tab.0.right/0.23.1385.877@0.23.1385.877" timestamp="1599370707903" />
     <state width="1343" height="305" key="GridCell.Tab.0.right/0.23.1386.877/-1920.23.1920.1057@0.23.1386.877" timestamp="1599013862433" />
     <state width="1343" height="305" key="GridCell.Tab.0.right/0.23.1386.877@0.23.1386.877" timestamp="1599007376982" />
     <state width="1345" height="285" key="GridCell.Tab.0.right/0.23.1387.877@0.23.1387.877" timestamp="1598491353362" />
     <state width="1343" height="324" key="GridCell.Tab.0.right/0.23.1388.877@0.23.1388.877" timestamp="1599035631210" />
+    <state width="1343" height="364" key="GridCell.Tab.0.right/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1599466495062" />
     <state width="1343" height="190" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1599036500074" />
     <state width="1343" height="285" key="GridCell.Tab.1.bottom" timestamp="1599056042691">
       <screen x="0" y="23" width="1385" height="877" />
@@ -320,9 +329,10 @@
     </state>
     <state x="454" y="75" key="refactoring.ChangeSignatureDialog/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599303414183" />
     <state x="455" y="75" key="refactoring.ChangeSignatureDialog/0.23.1387.877@0.23.1387.877" timestamp="1598489126337" />
-    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599037430656">
-      <screen x="0" y="23" width="1388" height="877" />
+    <state x="359" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599467411052">
+      <screen x="0" y="23" width="1385" height="877" />
     </state>
+    <state x="359" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599467411052" />
     <state x="360" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1388.877/-1920.23.1920.1057@0.23.1388.877" timestamp="1599037430656" />
   </component>
 </project>
