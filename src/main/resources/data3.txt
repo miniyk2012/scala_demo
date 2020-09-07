@@ -1,0 +1,5 @@
+Introduction
+Many years ago software developers understood the benefits of testing their code. Testing in the big data world is not so extended. Through this article I intend to show one way of creating and running PySpark tests.
+There are many articles out there where it is explained how to write tests and integrate them in the CI pipelines. When working with Spark I did not manage to find any good documentation or patterns that could help me to create and automate tests in the same way as I used to do with other frameworks.
+This article explains the way I run PySpark tests. Hopefully, it will be useful for future big data developers searching ways to improve the quality of their code and at the same time their CI pipelines.
+aa bb
