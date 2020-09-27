@@ -1,4 +1,4 @@
-package exercise.ch02
+package scratch.exercise.ch02
 
 object Series extends App {
   def sum(q: Int): Double = {

@@ -1,4 +1,4 @@
-package basic
+package scratch.basic
 
 class Temp {
   var x: Int = 0 //这里使用x作为字段名

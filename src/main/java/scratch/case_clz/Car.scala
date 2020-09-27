@@ -1,4 +1,4 @@
-package case_clz
+package scratch.case_clz
 
 case class Car(brand: String, price: Int)
 

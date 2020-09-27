@@ -1,4 +1,4 @@
-package clz
+package scratch.clz
 
 trait Flyable {
   var maxFlyHeight: Int

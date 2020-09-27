@@ -1,10 +1,10 @@
-package rdd
+package scratch.rdd
 
 import org.apache.spark.{SparkConf, SparkContext}
 
 object shareval {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("wordcount").setMaster("local")
+    val conf = new SparkConf().setAppName("scratch/wordcount").setMaster("local")
     val sc = new SparkContext(conf)
     val broadcastVar = sc.broadcast(Array(1, 2, 3))
     broadcastVar.value.foreach(println)

@@ -1,6 +1,6 @@
 import scala.collection.mutable
 import scala.collection.immutable
-//import scala.collection.immutable._
+//import scala.scratch.collection.immutable._
 
 Nil
 var strList = List("bigdata", "hadoop", "spark")

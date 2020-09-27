@@ -1,4 +1,4 @@
-package spark_streaming.TestRDDQueueStream
+package scratch.spark_streaming.TestRDDQueueStream
 
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD

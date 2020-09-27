@@ -1,4 +1,4 @@
-package basic
+package scratch.basic
 
 class Counter {
   var value: Int = 0

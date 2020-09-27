@@ -1,4 +1,4 @@
-package basic
+package scratch.basic
 
 class UnapplyCar(val brand: String, val price: Int) {
   def info(): Unit = {

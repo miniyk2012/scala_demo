@@ -1,4 +1,4 @@
-package spark_streaming
+package scratch.spark_streaming
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}

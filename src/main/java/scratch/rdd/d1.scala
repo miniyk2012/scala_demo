@@ -1,11 +1,11 @@
-package rdd
+package scratch.rdd
 
 import org.apache.spark.{SparkConf, SparkContext}
 
 
 object d1 {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("wordcount").setMaster("local")
+    val conf = new SparkConf().setAppName("scratch/wordcount").setMaster("local")
     val sc = new SparkContext(conf)
     val lines = sc.textFile("hdfs://zjka-cpc-backend-bigdata-qa-01:9000/user/hadoop/word.txt")
     val pairRDD = lines.flatMap(line => line.split(" ")).filter(word=>word!="").map(word => (word, 1))

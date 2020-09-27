@@ -1,4 +1,4 @@
-package rdd
+package scratch.rdd
 
 import org.apache.spark.{SparkConf, SparkContext}
 

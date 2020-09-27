@@ -1,4 +1,4 @@
-package basic
+package scratch.basic
 
 class Top(name: String, subname: String) {
 
@@ -6,7 +6,7 @@ class Top(name: String, subname: String) {
 
   def show: Unit = {
     val c = new Nested(subname)
-    printf("basic.Top %s includes a Nested %s\n", name, c.name)
+    printf("scratch.basic.Top %s includes a Nested %s\n", name, c.name)
   }
 }
 

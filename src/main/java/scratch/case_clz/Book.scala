@@ -1,4 +1,4 @@
-package case_clz
+package scratch.case_clz
 
 case class Book(name: String, price: Double) {
   var name1: String = "100a"

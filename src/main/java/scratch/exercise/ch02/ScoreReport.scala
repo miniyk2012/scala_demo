@@ -1,4 +1,4 @@
-package exercise.ch02
+package scratch.exercise.ch02
 
 object ScoreReport {
   def main(args: Array[String]): Unit = {

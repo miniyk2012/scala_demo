@@ -1,4 +1,4 @@
-package wordcount
+package scratch.wordcount
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._

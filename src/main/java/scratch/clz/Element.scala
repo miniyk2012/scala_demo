@@ -1,4 +1,4 @@
-package clz
+package scratch.clz
 
 abstract class Element {
   type T

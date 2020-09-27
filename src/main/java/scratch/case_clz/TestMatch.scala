@@ -1,6 +1,6 @@
-package case_clz
+package scratch.case_clz
 
-import basic.Counter
+import scratch.basic.Counter
 
 object TestMatch extends App {
   def demo(): Unit = {

@@ -1,10 +1,10 @@
-package wordcount
+package scratch.wordcount
 
 import org.apache.spark.{SparkConf, SparkContext}
 
 object demo3 {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("wordcount").setMaster("local")
+    val conf = new SparkConf().setAppName("scratch/wordcount").setMaster("local")
     val sc = new SparkContext(conf)
     val lines = sc.textFile("file:///Users/admin/Documents/javaprojects/scala_demo/src/main/resources/data.txt")
     val pairRDD = lines.flatMap(line => line.split(" ")).map(word => (word,1))

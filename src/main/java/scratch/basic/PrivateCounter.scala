@@ -1,4 +1,4 @@
-package basic
+package scratch.basic
 
 class PrivateCounter {
   private var privateValue = 0

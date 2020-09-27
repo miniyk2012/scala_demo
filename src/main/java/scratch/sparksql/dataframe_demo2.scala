@@ -1,4 +1,4 @@
-package sparksql
+package scratch.sparksql
 
 import org.apache.spark.sql.{Row, SparkSession}
 import org.apache.spark.sql.types.{StringType, StructField, StructType}

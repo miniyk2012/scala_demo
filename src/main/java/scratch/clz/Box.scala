@@ -1,4 +1,4 @@
-package clz
+package scratch.clz
 
 import scala.collection.mutable
 

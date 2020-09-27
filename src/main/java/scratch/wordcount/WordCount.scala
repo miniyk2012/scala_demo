@@ -1,7 +1,7 @@
-package wordcount
+package scratch.wordcount
 
 import org.apache.spark.{SparkConf, SparkContext}
-import utils.Utils
+import scratch.utils.Utils
 
 import scala.io.Source
 
