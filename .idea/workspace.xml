@@ -2,16 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160ceebc-4693-4d48-ac50-96cd39e8118f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Closure.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Log.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Resource.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Underscore.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/WirteToFile.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/TraitsAndTypeConversions/Decorator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/TraitsAndTypeConversions/TreatCatAsFriend.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/TraitsAndTypeConversions/UserFriend.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/common/Constant.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/common/DateUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/common/Utils.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/FunctionValuesAndClosures/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Closure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/FunctionValuesAndClosures/Closure.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Equipment.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/InjectA.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/FunctionValuesAndClosures/InjectA.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Log.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Resource.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Underscore.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/FunctionValuesAndClosures/Underscore.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/WirteToFile.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/rangeValue.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/ScalaIdioms/PlayWithPets.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/Generiacs3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/SensibleTyping/Generiacs3.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/Mad.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/Methods.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/OptionExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/Trouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/SensibleTyping/Trouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/TraitsAndTypeConversions/Decorator.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/TraitsAndTypeConversions/TreatCatAsFriend.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/TraitsAndTypeConversions/UserFriend.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Access.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/AvoidExplicitReturn.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/scalaForTheJavaEyes/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Car.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Complex.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Complex2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/CreditCard.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Equality.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/scalaForTheJavaEyes/Equality.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/FineGrainedAccessControl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Greetings.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Marker.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/MultiLine.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/scalaForTheJavaEyes/MultiLine.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/MultipleAssignment.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/scalaForTheJavaEyes/MultipleAssignment.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/OptionalSemicolon.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/scalaForTheJavaEyes/OptionalSemicolon.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Person.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Protected.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Sample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/ScalaInt.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/SerialAssingnments.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/programming_scala/scalaForTheJavaEyes/SerialAssingnments.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Singleton.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Static.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programming_scala/scalaForTheJavaEyes/Vehicle.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,18 +122,19 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/sparksql" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="programming_scala.scalaForTheJavaEyes" />
       <recent name="rdd" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/sparksql" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Trouble">
+  <component name="RunManager" selected="Application.Utils">
     <configuration name="Complex" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="programming_scala.scalaForTheJavaEyes.Complex" />
       <module name="scala_demo" />
@@ -152,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exec" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scratch.rdd.exec" />
+    <configuration name="Utils" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="company.common.Utils" />
       <module name="scala_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scratch.rdd.*" />
+          <option name="PATTERN" value="company.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +201,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.exec" />
       <item itemvalue="Application.ScalaInt" />
       <item itemvalue="Application.Complex" />
       <item itemvalue="Application.Complex2" />
       <item itemvalue="Application.Trouble" />
+      <item itemvalue="Application.Utils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Utils" />
         <item itemvalue="Application.Trouble" />
         <item itemvalue="Application.Complex2" />
         <item itemvalue="Application.Complex" />
         <item itemvalue="Application.ScalaInt" />
-        <item itemvalue="Application.exec" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +251,9 @@
       <workItem from="1600335136820" duration="1778000" />
       <workItem from="1600380021504" duration="843000" />
       <workItem from="1600750768306" duration="261000" />
-      <workItem from="1600996703786" duration="31733000" />
+      <workItem from="1600996703786" duration="31917000" />
+      <workItem from="1601251860349" duration="1012000" />
+      <workItem from="1601261029679" duration="3375000" />
     </task>
     <servers />
   </component>
@@ -228,10 +265,10 @@
       <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state x="293" y="127" key="#Scala/0.23.1387.877@0.23.1387.877" timestamp="1598488783753" />
-    <state x="427" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601188098433">
+    <state x="427" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601262057404">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state x="427" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601188098433" />
+    <state x="427" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601262057404" />
     <state x="430" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599303083770" />
     <state x="430" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1385.877@0.23.1385.877" timestamp="1599370344672" />
     <state x="430" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1386.877/-1920.23.1920.1057@0.23.1386.877" timestamp="1599446772233" />
@@ -272,11 +309,11 @@
       <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state x="448" y="233" key="EnvironmentVariablesDialog/0.23.1386.877/-1920.23.1920.1057@0.23.1386.877" timestamp="1599013822604" />
-    <state width="1333" height="309" key="GridCell.Tab.0.bottom" timestamp="1601019992644">
+    <state width="1333" height="309" key="GridCell.Tab.0.bottom" timestamp="1601264692838">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1333" height="309" key="GridCell.Tab.0.bottom/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601019992644" />
-    <state width="1333" height="309" key="GridCell.Tab.0.bottom/0.23.1375.877@0.23.1375.877" timestamp="1600997806092" />
+    <state width="1333" height="309" key="GridCell.Tab.0.bottom/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601264692838" />
+    <state width="1333" height="309" key="GridCell.Tab.0.bottom/0.23.1375.877@0.23.1375.877" timestamp="1601251835743" />
     <state width="1336" height="309" key="GridCell.Tab.0.bottom/0.23.1378.877/-1920.23.1920.1057@0.23.1378.877" timestamp="1600751526466" />
     <state width="1343" height="309" key="GridCell.Tab.0.bottom/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599483544298" />
     <state width="1343" height="319" key="GridCell.Tab.0.bottom/0.23.1385.877@0.23.1385.877" timestamp="1599370707904" />
@@ -286,11 +323,11 @@
     <state width="1343" height="324" key="GridCell.Tab.0.bottom/0.23.1388.877@0.23.1388.877" timestamp="1599035631211" />
     <state width="1343" height="364" key="GridCell.Tab.0.bottom/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1599466495063" />
     <state width="1343" height="190" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1599036500075" />
-    <state width="1333" height="309" key="GridCell.Tab.0.center" timestamp="1601019992643">
+    <state width="1333" height="309" key="GridCell.Tab.0.center" timestamp="1601264692837">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1333" height="309" key="GridCell.Tab.0.center/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601019992643" />
-    <state width="1333" height="309" key="GridCell.Tab.0.center/0.23.1375.877@0.23.1375.877" timestamp="1600997806091" />
+    <state width="1333" height="309" key="GridCell.Tab.0.center/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601264692837" />
+    <state width="1333" height="309" key="GridCell.Tab.0.center/0.23.1375.877@0.23.1375.877" timestamp="1601251835742" />
     <state width="1336" height="309" key="GridCell.Tab.0.center/0.23.1378.877/-1920.23.1920.1057@0.23.1378.877" timestamp="1600751526466" />
     <state width="1343" height="309" key="GridCell.Tab.0.center/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599483544297" />
     <state width="1343" height="319" key="GridCell.Tab.0.center/0.23.1385.877@0.23.1385.877" timestamp="1599370707903" />
@@ -300,11 +337,11 @@
     <state width="1343" height="324" key="GridCell.Tab.0.center/0.23.1388.877@0.23.1388.877" timestamp="1599035631210" />
     <state width="1343" height="364" key="GridCell.Tab.0.center/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1599466495061" />
     <state width="1343" height="190" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1599036500074" />
-    <state width="1333" height="309" key="GridCell.Tab.0.left" timestamp="1601019992642">
+    <state width="1333" height="309" key="GridCell.Tab.0.left" timestamp="1601264692836">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1333" height="309" key="GridCell.Tab.0.left/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601019992642" />
-    <state width="1333" height="309" key="GridCell.Tab.0.left/0.23.1375.877@0.23.1375.877" timestamp="1600997806091" />
+    <state width="1333" height="309" key="GridCell.Tab.0.left/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601264692836" />
+    <state width="1333" height="309" key="GridCell.Tab.0.left/0.23.1375.877@0.23.1375.877" timestamp="1601251835741" />
     <state width="1336" height="309" key="GridCell.Tab.0.left/0.23.1378.877/-1920.23.1920.1057@0.23.1378.877" timestamp="1600751526465" />
     <state width="1343" height="309" key="GridCell.Tab.0.left/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599483544297" />
     <state width="1343" height="319" key="GridCell.Tab.0.left/0.23.1385.877@0.23.1385.877" timestamp="1599370707902" />
@@ -314,11 +351,11 @@
     <state width="1343" height="324" key="GridCell.Tab.0.left/0.23.1388.877@0.23.1388.877" timestamp="1599035631209" />
     <state width="1343" height="364" key="GridCell.Tab.0.left/0.23.1390.877/-1920.23.1920.1057@0.23.1390.877" timestamp="1599466495061" />
     <state width="1343" height="190" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1599036500074" />
-    <state width="1333" height="309" key="GridCell.Tab.0.right" timestamp="1601019992644">
+    <state width="1333" height="309" key="GridCell.Tab.0.right" timestamp="1601264692837">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1333" height="309" key="GridCell.Tab.0.right/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601019992644" />
-    <state width="1333" height="309" key="GridCell.Tab.0.right/0.23.1375.877@0.23.1375.877" timestamp="1600997806092" />
+    <state width="1333" height="309" key="GridCell.Tab.0.right/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601264692837" />
+    <state width="1333" height="309" key="GridCell.Tab.0.right/0.23.1375.877@0.23.1375.877" timestamp="1601251835742" />
     <state width="1336" height="309" key="GridCell.Tab.0.right/0.23.1378.877/-1920.23.1920.1057@0.23.1378.877" timestamp="1600751526466" />
     <state width="1343" height="309" key="GridCell.Tab.0.right/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599483544298" />
     <state width="1343" height="319" key="GridCell.Tab.0.right/0.23.1385.877@0.23.1385.877" timestamp="1599370707903" />
@@ -363,9 +400,10 @@
       <screen x="0" y="23" width="1385" height="877" />
     </state>
     <state x="369" y="294" key="com.intellij.ide.util.TipDialog/0.23.1385.877@0.23.1385.877" timestamp="1598574569009" />
-    <state x="350" y="223" width="692" height="554" key="find.popup" timestamp="1601035157401">
+    <state x="350" y="223" width="692" height="554" key="find.popup" timestamp="1601263165094">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
+    <state x="350" y="223" width="692" height="554" key="find.popup/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601263165094" />
     <state x="350" y="223" width="692" height="554" key="find.popup/0.23.1375.877@0.23.1375.877" timestamp="1601035157401" />
     <state x="352" y="223" width="683" height="554" key="find.popup/0.23.1382.877/-1920.23.1920.1057@0.23.1382.877" timestamp="1600335151535" />
     <state x="353" y="223" width="683" height="554" key="find.popup/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599302557866" />
@@ -375,9 +413,10 @@
     </state>
     <state x="454" y="75" key="refactoring.ChangeSignatureDialog/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599303414183" />
     <state x="455" y="75" key="refactoring.ChangeSignatureDialog/0.23.1387.877@0.23.1387.877" timestamp="1598489126337" />
-    <state x="358" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599650334482">
-      <screen x="0" y="23" width="1382" height="877" />
+    <state x="356" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601265961903">
+      <screen x="0" y="23" width="1375" height="877" />
     </state>
+    <state x="356" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601265961903" />
     <state x="358" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1382.877/-1920.23.1920.1057@0.23.1382.877" timestamp="1599650334482" />
     <state x="359" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1385.877/-1920.23.1920.1057@0.23.1385.877" timestamp="1599467411052" />
     <state x="360" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1388.877/-1920.23.1920.1057@0.23.1388.877" timestamp="1599037430656" />
