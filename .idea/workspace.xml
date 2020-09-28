@@ -2,64 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160ceebc-4693-4d48-ac50-96cd39e8118f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Equipment.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/InjectA.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/rangeValue.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/ScalaIdioms/PlayWithPets.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/Generiacs3.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/Mad.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/Methods.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/OptionExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/SensibleTyping/Trouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Closure.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Log.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Resource.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/Underscore.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/FunctionValuesAndClosures/WirteToFile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/TraitsAndTypeConversions/Decorator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/TraitsAndTypeConversions/TreatCatAsFriend.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programming_scala/TraitsAndTypeConversions/UserFriend.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/managedSourcePaths/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/managedSourcePaths/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Car.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Car.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Counter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Counter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Counter1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Counter1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Counter2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Counter2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Hello.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Person.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Person1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Person1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Position.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Position.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/PrivateCounter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/PrivateCounter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Temp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Temp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/TestApplyClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/TestApplyClass.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/Top.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/Top.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/basic/UnapplyCar.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/basic/UnapplyCar.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/case_clz/Book.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/case_clz/Book.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/case_clz/Car.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/case_clz/Car.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/case_clz/TestMatch.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/case_clz/TestMatch.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/clz/Bird.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/clz/Bird.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/clz/Box.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/clz/Box.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/clz/Car.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/clz/Car.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/clz/Element.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/clz/Element.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/collection/collections_demo.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/collection/collections_demo.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/exercise/ch02/ScoreReport.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/exercise/ch02/ScoreReport.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/exercise/ch02/Series.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/exercise/ch02/Series.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/rdd/aggregateByKeyDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/rdd/aggregateByKeyDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/rdd/aggregateByKeyDemo2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/rdd/aggregateByKeyDemo2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/rdd/d1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/rdd/d1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/rdd/d2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/rdd/d2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/rdd/exec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/rdd/exec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/rdd/foldExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/rdd/foldExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/rdd/shareval.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/rdd/shareval.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/spark_streaming/TestRDDQueueStream/TestRDDQueueStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/spark_streaming/TestRDDQueueStream/TestRDDQueueStream.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/spark_streaming/demo1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/spark_streaming/demo1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/sparksql/dataframe_demo1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/sparksql/dataframe_demo1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/sparksql/dataframe_demo2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/sparksql/dataframe_demo2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/sparksql/demo1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/sparksql/demo1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/sparksql/hive_demo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/sparksql/hive_demo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/sparksql/parquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/sparksql/parquet.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/sparksql/readFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/sparksql/readFile.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/utils/Utils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/utils/Utils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/wordcount/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/wordcount/WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/wordcount/demo1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/wordcount/demo1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/wordcount/demo2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/wordcount/demo2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scratch/wordcount/demo3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scratch/wordcount/demo3.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +31,8 @@
       <list>
         <option value="Scala Object" />
         <option value="Package Object" />
-        <option value="Class" />
         <option value="Scala Worksheet" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -264,7 +216,7 @@
       <workItem from="1600335136820" duration="1778000" />
       <workItem from="1600380021504" duration="843000" />
       <workItem from="1600750768306" duration="261000" />
-      <workItem from="1600996703786" duration="26379000" />
+      <workItem from="1600996703786" duration="31733000" />
     </task>
     <servers />
   </component>
@@ -298,10 +250,11 @@
       <screen x="0" y="23" width="1387" height="877" />
     </state>
     <state x="426" y="383" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1387.877@0.23.1387.877" timestamp="1598487285847" />
-    <state x="531" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1601023468076">
+    <state x="531" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1601250206670">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
     <state x="531" y="169" key="#com.intellij.ide.util.MemberChooser/0.23.1375.877/-1920.23.1920.1057@0.23.1375.877" timestamp="1601023468076" />
+    <state x="531" y="169" key="#com.intellij.ide.util.MemberChooser/0.23.1375.877@0.23.1375.877" timestamp="1601250206670" />
     <state x="307" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1598487510262">
       <screen x="0" y="23" width="1387" height="877" />
     </state>
