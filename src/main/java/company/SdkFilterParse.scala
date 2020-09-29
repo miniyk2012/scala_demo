@@ -1,16 +1,16 @@
 package company
 
 import java.net.URLDecoder
+import java.nio.charset.StandardCharsets
+import java.util.Base64
 
+import com.alibaba.fastjson.{JSON, JSONArray}
 import company.common.{Constant, Utils}
 import company.model.SdkFilterEvent
-import company.util.Base64Util
-
-import scala.collection.mutable.ListBuffer
-import scala.util.control.Breaks
-import com.alibaba.fastjson.{JSON, JSONArray}
 
 import scala.collection.JavaConverters._
+import scala.collection.mutable.ListBuffer
+import scala.util.control.Breaks
 
 
 object SdkFilterParse {
@@ -78,22 +78,22 @@ object SdkFilterParse {
 
     val ret = new ListBuffer[SdkFilterEvent]
     try {
-      val json: String = Base64Util.decode(URLDecoder.decode(filterData.trim, "UTF8"))
+      val json: String = new String(Base64.getDecoder().decode(URLDecoder.decode(filterData.trim, "UTF-8").replace("\n", "")),StandardCharsets.UTF_8)
       val jsonobj = JSON.parseObject(json)
       val searchId = jsonobj.getString("search_id")
       val funnels = jsonobj.getJSONArray("funnels")
       for (i <- 0 until funnels.size()) {
         try {
           val funnel = funnels.getJSONObject(i)
-          val funnelName = funnel.getString("funnel_name")
+          val funnelName = funnel.getString("name")
           val sdkFilterEvent = SdkFilterEvent()
           if (funnel.containsKey("FilteredAds")) {
             val filteredAds = funnel.getJSONArray("FilteredAds")
             fillSdkEvents(ret, searchId, funnelName, filteredAds)
           } else {
-            val sdkEvent = SdkFilterEvent()
-            sdkEvent.search_id = searchId
-            sdkEvent.funnel_name = funnelName
+            val sdkFilterEvent = SdkFilterEvent()
+            sdkFilterEvent.search_id = searchId
+            sdkFilterEvent.funnel_name = funnelName
             ret.append(sdkFilterEvent)
           }
         } catch {
@@ -121,6 +121,6 @@ object SdkFilterParse {
     println(filterData1)
     println(filterData2)
     val sdkEvents = getSdkFilterInfoEventFromFilterData(filterData1)
-
+    println(sdkEvents)
   }
 }
