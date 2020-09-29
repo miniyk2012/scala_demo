@@ -11,11 +11,11 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-<!--        <scala.version>2.12.8</scala.version>-->
+        <!--        <scala.version>2.12.8</scala.version>-->
         <scala.version>2.11.8</scala.version>
-<!--        <spark.version>2.4.6</spark.version>-->
+        <!--        <spark.version>2.4.6</spark.version>-->
         <spark.version>2.1.0</spark.version>
-<!--        <spark.artifact>2.12</spark.artifact>-->
+        <!--        <spark.artifact>2.12</spark.artifact>-->
         <spark.artifact>2.11</spark.artifact>
         <dependency.scope>compile</dependency.scope>
     </properties>
@@ -27,6 +27,11 @@
             <artifactId>spark-core_${spark.artifact}</artifactId>
             <version>${spark.version}</version>
             <scope>${dependency.scope}</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.58</version>
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
