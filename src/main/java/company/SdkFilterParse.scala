@@ -86,7 +86,6 @@ object SdkFilterParse {
         try {
           val funnel = funnels.getJSONObject(i)
           val funnelName = funnel.getString("name")
-          val sdkFilterEvent = SdkFilterEvent()
           if (funnel.containsKey("FilteredAds")) {
             val filteredAds = funnel.getJSONArray("FilteredAds")
             fillSdkEvents(ret, searchId, funnelName, filteredAds)
@@ -106,7 +105,6 @@ object SdkFilterParse {
     }
     ret
   }
-
   def main(args: Array[String]): Unit = {
     val filter_raw =
       """

@@ -312,7 +312,7 @@ object Utils {
 
   def main(args: Array[String]): Unit = {
     val beginCal: Calendar = DateUtils.getCalendarByDateTimeStr("2020-09-20 00:00:00")
-    val filter = Utils.getFilterCondition(beginCal, 10);
+    val filter = Utils.getFilterCondition(beginCal, 10)
     println(filter)
   }
 }
